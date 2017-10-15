@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <header class="sticky row">
+        <meta charset="utf-8">
+        <div class="col-sm col-md-10 col-md-offset-1">
+            <a href="#" role="button">Sobre</a>
+            <a href="https://github.com/M3nin0/roll.js" role="button" target="_blank">Colabore</a>
+        </div>
+        <title>Roll.JS</title>
+    </header>
+    <body class = "balt">
+            <div class = "col-sm">
+                <br>
+                Escolha qual dado você irá rodar
+                <select id = "values" class="shadow-medium">
+                    <option value = '4'>D4</option>
+                    <option value = '6'>D6</option>
+                    <option value = '8'>D8</option>
+                    <option value = '10'>D10</option>
+                    <option value = '12'>D12</option>
+                    <option value = '16'>D16</option>
+                    <option value = '20'>D20</option>
+                    <option value = '50'>D50</option>
+                    <option value = '100'>D100</option>
+                </select>
+                <br>
+                Escolha quantos dados serão rodados
+                <select id = "qtd" class="shadow-medium">
+                    <option value = '1'>1</option>
+                    <option value = '2'>2</option>
+                    <option value = '3'>3</option>
+                    <option value = '4'>4</option>
+                    <option value = '5'>5</option>            
+                </select>
+            </div>
+            <div>
+                <input type="submit" class="primary" value="Girar os dados" onclick="roll();">
+            </div>
+            <label>
+                Resposta <label id = "result"></label>
+            </label>
+    </body>
+        <link rel="stylesheet" href="https://gitcdn.link/repo/Chalarangelo/mini.css/master/dist/mini-nord.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/dices.js"></script>
+        
+</html>
