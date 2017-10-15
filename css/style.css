@@ -1,3 +1,18 @@
 .balt{
     font-family: 'Merriweather', serif;
 }
+body {
+    margin: 0px
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.quest {
+    width: 300px;
+    height: 300px;
+}
